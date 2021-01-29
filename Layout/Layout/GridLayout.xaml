@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.GridLayout" Title="GridLayout">
+    <ContentPage.Content>
+        <Grid Padding="40"
+              RowSpacing="10"
+              ColumnSpacing="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Label 
+                x:Name="lblhienthi"
+                BackgroundColor="AliceBlue"
+                TextColor="Black"
+                 FontSize="50"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"
+                   Grid.Row="0" Grid.ColumnSpan="4"/>
+
+            <Button Text="1" x:Name="n1" Clicked="N1_Clicked" Grid.Row="1" Grid.Column="0" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="2" x:Name="n2" Clicked="N2_Clicked"  Grid.Row="1" Grid.Column="1" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="3" x:Name="n3" Clicked="N3_Clicked" Grid.Row="1" Grid.Column="2" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="4" x:Name="n4" Clicked="N4_Clicked" Grid.Row="2" Grid.Column="0" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="5" x:Name="n5" Clicked="N5_Clicked" Grid.Row="2" Grid.Column="1" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="6" x:Name="n6" Clicked="N6_Clicked" Grid.Row="2" Grid.Column="2" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="7" x:Name="n7" Clicked="N7_Clicked" Grid.Row="3" Grid.Column="0" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="8" x:Name="n8" Clicked="N8_Clicked" Grid.Row="3" Grid.Column="1" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="9" x:Name="n9" Clicked="N9_Clicked" Grid.Row="3" Grid.Column="2" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="0" x:Name="n0" Clicked="N0_Clicked" Grid.Row="4" Grid.Column="1" TextColor = "#28282c" BackgroundColor="#fff" BorderRadius="20"/>
+            <Button Text="+" 
+                    Clicked="ButtonCong"
+                    CornerRadius="20"
+                    BackgroundColor="#96ca2d" Grid.Row="1" Grid.Column="3"/>
+            <Button Text="-" 
+                   FontSize="30"
+                    Clicked="ButtonTru"
+                    CornerRadius="20"
+                    BackgroundColor="#96ca2d" Grid.Row="2" Grid.Column="3"/>
+            <Button Text="X" 
+                    Clicked="ButtonNhan"
+                    CornerRadius="20"
+                    BackgroundColor="#96ca2d" Grid.Row="3" Grid.Column="3"/>
+            <Button Text="/" 
+                    Clicked="ButtonChia"
+                    CornerRadius="20"
+                    BackgroundColor="#96ca2d" Grid.Row="4" Grid.Column="3"/>
+            <Button Text="=" 
+                    Clicked="ButtonTinh"
+                    FontSize="30"
+                    CornerRadius="20"
+                    BackgroundColor="Blue" Grid.Row="5" Grid.ColumnSpan="3"/>
+            <Button Text="AC"
+                    Clicked="ButtonAC" 
+                    Grid.Row="5" Grid.Column="3"
+                    FontSize="20"
+                    BackgroundColor="Chocolate"
+                    BorderRadius="30"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

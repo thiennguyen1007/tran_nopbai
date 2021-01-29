@@ -1,0 +1,17 @@
+C:\Users\84398\source\repos\Layout\Layout\bin\Debug\netstandard2.0\Layout.deps.json
+C:\Users\84398\source\repos\Layout\Layout\bin\Debug\netstandard2.0\Layout.dll
+C:\Users\84398\source\repos\Layout\Layout\bin\Debug\netstandard2.0\ref\Layout.dll
+C:\Users\84398\source\repos\Layout\Layout\bin\Debug\netstandard2.0\Layout.pdb
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\Layout.csprojAssemblyReference.cache
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\GridLayout.xaml.g.cs
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\StackLayout.xaml.g.cs
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\Layout.AssemblyInfoInputs.cache
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\Layout.AssemblyInfo.cs
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\Layout.csproj.CoreCompileInputs.cache
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\Layout.dll
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\ref\Layout.dll
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\Layout.pdb
+C:\Users\84398\source\repos\Layout\Layout\obj\Debug\netstandard2.0\AbsoluteLayout.xaml.g.cs

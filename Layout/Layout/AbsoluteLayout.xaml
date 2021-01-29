@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.AbsoluteLayout"
+            Title="AbsoluteLayout"
+            BackgroundColor="White">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Trang 1" >
+        <AbsoluteLayout>
+            <BoxView Color="#f7f7f7" AbsoluteLayout.LayoutBounds="0,0,1,.3" AbsoluteLayout.LayoutFlags="All"/>
+            <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,.3" AbsoluteLayout.LayoutFlags="All" >
+                <Label Text="$11.95" FontAttributes="Bold" TextColor="#33353a" FontSize="60" HorizontalTextAlignment="Center"/>
+                
+                <Button Text="Add $7.99 Credit" 
+                        BackgroundColor="#1695A3"
+                        
+                        CornerRadius="15" FontSize="15" HeightRequest="40" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout AbsoluteLayout.LayoutBounds="0,.5,1,.3" AbsoluteLayout.LayoutFlags="All"
+                         Padding="40" Spacing="30">
+                <Label Text="Why pay for credit?" FontSize="15" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="Black"/>
+                <Label 
+                    HorizontalOptions="Center" TextColor="Black"
+                    Text="Because you can reach people who aren't on SkyApp by calling mobile and landline numbers, or spending SMS, at low-cost rates."
+                       FontSize="13"/>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage>
+    <ContentPage Title="Trang 2" BackgroundColor="White">
+        <AbsoluteLayout>
+           
+            <Image Source="https://img.thuthuattinhoc.vn/uploads/2019/02/18/anh-nen-dien-thoai-dep-nhat_110951114.jpg"
+                   Aspect="AspectFill" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+            <Label Text="Relax" FontSize="25"  TextColor="White"
+                   AbsoluteLayout.LayoutBounds=".5,0,100,40" AbsoluteLayout.LayoutFlags="PositionProportional" />
+            <StackLayout Orientation="Horizontal" Padding="30,0"
+               AbsoluteLayout.LayoutBounds="0,1,1,.2" AbsoluteLayout.LayoutFlags="All"   >
+                <Label Text="Profile" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="15"/>
+                <Label Text="Medidate" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="White" FontSize="15"/> 
+                <Label Text="Themes" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="15"/> 
+            </StackLayout>
+            <BoxView Opacity=".5" Color="Black" AbsoluteLayout.LayoutBounds="0,1,1,.2" AbsoluteLayout.LayoutFlags="All"  />
+        </AbsoluteLayout>
+    </ContentPage>
+  
+</TabbedPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Layout.MainPage"
+             Title="Layout"
+             BackgroundColor="Beige">
+    <AbsoluteLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds=".5,.5,.7,.5" AbsoluteLayout.LayoutFlags="All">
+            <Button Text="StackLayout" Clicked="Stack_Clicked" CornerRadius="30" BackgroundColor="Green"/>
+            <Button Text="GridLayout" Clicked="Grid_Cliked"  CornerRadius="30" BackgroundColor="Green"/>
+            <Button Text="AbsoluteLayout" Clicked="Absolute_Clicked" CornerRadius="30" BackgroundColor="Green"/>
+            <Button Text="RelativeLayout" CornerRadius="30" BackgroundColor="Green"/>
+        </StackLayout>
+    </AbsoluteLayout>
+
+  
+
+</ContentPage>
