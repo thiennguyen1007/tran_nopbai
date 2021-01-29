@@ -1,0 +1,17 @@
+C:\Users\84398\source\repos\Bai068\Bai068\bin\Debug\netstandard2.0\Bai068.deps.json
+C:\Users\84398\source\repos\Bai068\Bai068\bin\Debug\netstandard2.0\Bai068.dll
+C:\Users\84398\source\repos\Bai068\Bai068\bin\Debug\netstandard2.0\ref\Bai068.dll
+C:\Users\84398\source\repos\Bai068\Bai068\bin\Debug\netstandard2.0\Bai068.pdb
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Bai068.csprojAssemblyReference.cache
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Activity.xaml.g.cs
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Bai068.AssemblyInfoInputs.cache
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Bai068.AssemblyInfo.cs
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Bai068.csproj.CoreCompileInputs.cache
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Bai068.dll
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\ref\Bai068.dll
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Bai068.pdb
+C:\Users\84398\source\repos\Bai068\Bai068\obj\Debug\netstandard2.0\Details.xaml.g.cs
